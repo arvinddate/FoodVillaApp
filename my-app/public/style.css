@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --header-bg-color: rgb(255, 255, 255);
+    --footer-bg-color: rgb(255, 255, 255);
+    --body-bg-color: #e3e3e3;
+    --input-bg: #f2f2f2;
+    --input-bg-focus: #dbdbdb;
+    --text-color: #000;
+    --light-text-color: #545454;
+    --light-text-title: #353535;
+    --light-green: #00ad1d;
+    --dark-green: #016034;
+    --orange: #d97919;
+    --light-orange: #ffaf60;
+    --dark-orange: #c26100;
+    --x-dark-orange: rgb(157, 42, 1);
+    --light-red: rgb(236, 56, 56);
+    --white: #fff;
+    --light-white-text: #eaeaea;
+    --light-black: rgb(23, 23, 23);
+    --light-blue: #0463ac;
+    --dark-blue: #07060c;
+  }
+
+body{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
